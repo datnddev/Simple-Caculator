@@ -7,13 +7,19 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+final class ViewController: UIViewController {
+    
+    @IBOutlet private var numPad: [UIButton]!
+    @IBOutlet private var opearators: [UIButton]!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        setupView()
     }
-
-
+    
+    private func setupView(){
+        numPad.forEach { $0.currentTitle == "0" ? $0.makeRounded() :$0.makeCircle() }
+        opearators.forEach { $0.makeCircle() }
+    }
 }
 
