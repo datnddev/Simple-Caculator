@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5+2" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4dk-NT-U2c">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4dk-NT-U2c">
                                 <rect key="frame" x="0.0" y="244.5" width="414" height="72"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="60"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -35,6 +35,9 @@
                                                 <state key="normal" title="AC">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="numPadPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1m3-4q-M3L"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="npD-Kb-WF7">
                                                 <rect key="frame" x="104" y="0.0" width="102" height="106"/>
@@ -43,6 +46,9 @@
                                                 <state key="normal" title="Del">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="numPadPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xPg-F0-b7v"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D0s-3V-dla">
                                                 <rect key="frame" x="208" y="0.0" width="102" height="106"/>
@@ -51,6 +57,9 @@
                                                 <state key="normal" title="%">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="numPadPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="27H-wS-hrU"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Z6-Xa-iev">
                                                 <rect key="frame" x="312" y="0.0" width="102" height="106"/>
@@ -59,6 +68,9 @@
                                                 <state key="normal" title="/">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="numPadPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qHf-Ud-1sM"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -72,6 +84,9 @@
                                                 <state key="normal" title="7">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="numPadPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uaC-jK-qDm"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oRN-Jh-xDA">
                                                 <rect key="frame" x="104" y="0.0" width="102" height="105.5"/>
@@ -80,6 +95,9 @@
                                                 <state key="normal" title="8">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="numPadPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0ry-2a-mF2"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6S9-Tm-1Bj">
                                                 <rect key="frame" x="208" y="0.0" width="102" height="105.5"/>
@@ -88,6 +106,9 @@
                                                 <state key="normal" title="9">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="numPadPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JuZ-2E-crm"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="074-og-ICV">
                                                 <rect key="frame" x="312" y="0.0" width="102" height="105.5"/>
@@ -96,6 +117,9 @@
                                                 <state key="normal" title="X">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="numPadPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qrk-vm-etV"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -109,6 +133,9 @@
                                                 <state key="normal" title="4">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="numPadPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e2X-Gt-7P2"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qo9-LU-vdz">
                                                 <rect key="frame" x="104" y="0.0" width="102" height="106"/>
@@ -117,6 +144,9 @@
                                                 <state key="normal" title="5">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="numPadPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BCh-iU-bRq"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kle-jk-ad7">
                                                 <rect key="frame" x="208" y="0.0" width="102" height="106"/>
@@ -125,6 +155,9 @@
                                                 <state key="normal" title="6">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="numPadPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="086-bQ-NTU"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1qB-Fe-Qaw">
                                                 <rect key="frame" x="312" y="0.0" width="102" height="106"/>
@@ -133,6 +166,9 @@
                                                 <state key="normal" title="-">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="numPadPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Uun-p3-2L3"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -146,6 +182,9 @@
                                                 <state key="normal" title="1">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="numPadPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gcu-Y6-8yX"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kvO-LS-dKR">
                                                 <rect key="frame" x="104" y="0.0" width="102" height="106"/>
@@ -154,6 +193,9 @@
                                                 <state key="normal" title="2">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="numPadPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="R2Y-TG-T3V"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kae-kf-PiK">
                                                 <rect key="frame" x="208" y="0.0" width="102" height="106"/>
@@ -162,6 +204,9 @@
                                                 <state key="normal" title="3">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="numPadPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TMH-We-5QC"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A8n-cW-dhK">
                                                 <rect key="frame" x="312" y="0.0" width="102" height="106"/>
@@ -170,6 +215,9 @@
                                                 <state key="normal" title="+">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
+                                                <connections>
+                                                    <action selector="numPadPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ipT-kL-i8q"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -186,6 +234,9 @@
                                                         <state key="normal" title="0">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="numPadPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5hl-Ys-h2h"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -199,6 +250,9 @@
                                                         <state key="normal" title=".">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="numPadPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="s9O-nf-Pum"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X4Z-Rc-vov">
                                                         <rect key="frame" x="104" y="0.0" width="102" height="106"/>
@@ -207,6 +261,9 @@
                                                         <state key="normal" title="=">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="numPadPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ele-A2-qMP"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -228,6 +285,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="resultLabel" destination="4dk-NT-U2c" id="vnk-kN-N3W"/>
                         <outletCollection property="numPad" destination="yX6-Yc-WT1" collectionClass="NSMutableArray" id="eFm-G5-jvU"/>
                         <outletCollection property="numPad" destination="KZh-a9-vsJ" collectionClass="NSMutableArray" id="V71-Dp-azh"/>
                         <outletCollection property="numPad" destination="NTf-WM-VgI" collectionClass="NSMutableArray" id="PjG-76-Wbc"/>
